@@ -1,0 +1,129 @@
+/* Import font, y * */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lexend:wght@100&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    padding: 40px;
+}
+
+/* Divs, diseños, textos, etc */
+
+.img-area {
+    background: url(./assets/cyberpunk-city.jpg) no-repeat center center;
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    color: white;
+    text-shadow:
+    0 0 42px rgb(17, 0, 255),
+    0 0 82px rgb(255, 0, 255),
+    0 0 92px rgb(195, 0, 255),
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.text-header p {
+    padding: 15px;
+    font-size: 10px;
+}
+
+/* Form style */
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+    height: 15em;
+    width: 45em;
+
+    margin: auto;
+}
+
+input {
+    height: 4em;
+    width: 20em;
+    background: rgba(255, 4, 109, 0.404);
+    color: white;
+    padding: 15px;
+    margin: 2px;
+    
+
+    border: 0.2rem solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 1rem #fe136d,
+              0 0 0.1rem #fe136d,
+              0 0 1.1rem #fe136d,
+              inset 0 0 1.1rem #fe136d;
+}
+
+input::placeholder {
+    color: rgb(179, 179, 179);
+    font-style: italic;
+}
+
+.pass {
+    cursor: pointer;
+    font-size: 8px;
+    padding: 15px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+.singup {
+    padding: 30px;
+    font-size: 10px;
+    
+}
+
+.singup a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 4px #6513fe,
+    0 0 11px #6513fe,
+    0 0 19px #6513fe,
+    0 0 40px #6513fe,
+    0 0 80px #fe136d,
+    0 0 90px #fe136d,
+    0 0 100px #fe136d,
+    0 0 150px #fe136d;
+}
+
+#btn {
+    font-family: 'Press Start 2P', sans-serif;
+    background: url(./assets/1.gif);
+    cursor: pointer;
+}
