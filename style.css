@@ -127,3 +127,54 @@ input::placeholder {
     background: url(./assets/1.gif);
     cursor: pointer;
 }
+
+/* Media query */
+
+@media only screen and (max-width: 360px) {
+    
+    body {
+
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    .img-area {
+        background-position: center center;
+        height: 50%;
+        left: 0;
+        right: 50;
+        z-index: -1;
+    }
+
+    .container {   
+        padding: 0;
+        margin: 0;
+    }
+
+    .form-card {
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .text-header {
+        padding-top: 50px;
+        font-size: 10px;
+    }
+
+    input {
+        margin: 5px;
+        height: 4em;
+        width: 17em;
+    }
+
+    .singup {
+        padding: 20px;
+        font-size: 10px;
+        margin: 0;
+        line-height: 20px;
+    }
+    
+}
