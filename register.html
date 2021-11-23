@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./regstyle.css">
+    <title>User Register</title>
 </head>
 <body>
-    
+    <div class="img-area"></div>
+    <main class="main">
+        <section class="reg-card">
+            <div class="h1">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="form-card">
+                <form method="post" class="form">
+                    <div class="txt_field">
+                        <input type="text" placeholder="User" required>
+                    </div>
+                    <div class="txt_field">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="txt_field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="txt_field">
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="txt_field2">
+                        <input type="checkbox" name="checkTerms">
+                        <label for="checkTerms">I agree to the <a>terms & conditions</a></label>
+                    </div>
+                    <input type="button" class="btn" value="Create an account">
+                </form>
+                <div class="image">
+                    <img src="./assets/cpunkgif.gif" alt="Gif pixelart cyberpunk">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
